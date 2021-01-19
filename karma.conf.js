@@ -55,7 +55,7 @@ module.exports = function (config) {
       'karma-sauce-launcher',
     ],
     // Increase timeout in case connection in CI is slow
-    captureTimeout: 120000,
+    captureTimeout: 300000,
     customLaunchers,
     singleRun: true,
   });
